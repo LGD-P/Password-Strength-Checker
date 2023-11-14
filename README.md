@@ -1,3 +1,9 @@
+
+<p align ="center">
+    <img src="img/title.png">
+</p>
+
+
 # A Password Strength Checker
 
 This is a simple command-line interface (CLI) tool designed to assess the strength of passwords and determine if they need to be changed. You can also generate strong passwords with it. The tool utilizes two important components:
