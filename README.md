@@ -11,7 +11,7 @@ This is a simple command-line interface (CLI) tool designed to assess the streng
 ## Main Tools Used:
  
 - **zxcvbn lib**
-  - The zxcvbn Python library, developed by Daniel Lowe and Dropbox, is utilized to evaluate the strength of passwords. It provides an estimation of the time it would take to crack a password using various techniques. 
+  - The zxcvbn Python library, developed by [Daniel Lowe Wheeler](https://youtu.be/vf37jh3dV2I) and Dropbox, is utilized to evaluate the strength of passwords. It provides an estimation of the time it would take to crack a password using various techniques. 
 
   - The library also incorporates a password strength algorithm that analyzes the complexity of a given password. By leveraging this library, the tool can accurately assess password strength, reinforcing overall security.
 
