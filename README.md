@@ -69,3 +69,5 @@ Clone the project:
 ```bash
     poetry install
 ```
+
+- Dont like poetry ? use requirements.txt file: 
