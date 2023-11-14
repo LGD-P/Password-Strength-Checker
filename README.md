@@ -1,8 +1,8 @@
-## A Password Strength Checker
+# A Password Strength Checker
 
 This is a simple command-line interface (CLI) tool designed to assess the strength of passwords and determine if they need to be changed. You can also generate strong passwords with it. The tool utilizes two important components:
 
-### Main Tools Used:
+## Main Tools Used:
  
 - **zxcvbn lib**
   - The zxcvbn Python library, developed by Daniel Lowe and Dropbox, is utilized to evaluate the strength of passwords. It provides an estimation of the time it would take to crack a password using various techniques. 
@@ -18,6 +18,8 @@ This is a simple command-line interface (CLI) tool designed to assess the streng
 
 <p align="center">By incorporating the zxcvbn library and the Have I Been Pwned API, this project provides an efficient and reliable password strength checking mechanism.</p>
 
+
+## Quick view
 - Choose how many words in your passphrase
 ```python
     python3 main.py passphrase -pph 5
@@ -45,3 +47,25 @@ This is a simple command-line interface (CLI) tool designed to assess the streng
     python3 main.py --help
 ```
 <img src = "img/help.png">
+
+## Installation:
+
+- This project runs on Python 3.10.
+Clone the project:
+```bash
+    git clone https://github.com/LGD-P/P10_Open_C.git
+```
+
+- Manage dependencies:
+```bash
+    pip3 install poetry
+```
+- Activate the environment:
+```bash
+    poetry shell
+```
+
+- Install dependencies:
+```bash
+    poetry install
+```
