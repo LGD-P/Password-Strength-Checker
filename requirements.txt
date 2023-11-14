@@ -1,0 +1,7 @@
+passlib==1.7.4
+zxcvbn==4.4.28
+requests==2.31.0
+faker==20.0.0
+rich==13.6.0
+click==8.1.7
+rich-click==1.7.1
