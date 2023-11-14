@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "test-and-gen-pass"
+version = "0.1.0"
+description = ""
+authors = ["LGD-P <nplgdjp@gmx.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+passlib = "^1.7.4"
+zxcvbn = "^4.4.28"
+requests = "^2.31.0"
+faker = "^20.0.0"
+rich = "^13.6.0"
+click = "^8.1.7"
+rich-click = "^1.7.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
