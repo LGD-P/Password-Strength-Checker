@@ -1,5 +1,12 @@
 
 <p align ="center">
+    <img src="img/password-strength-checker.png" width=400>
+</p>
+
+
+------------------
+
+<p align ="center">
     <img src="img/title.png">
 </p>
 
